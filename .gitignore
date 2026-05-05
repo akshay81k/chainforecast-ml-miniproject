@@ -1,0 +1,87 @@
+# =============================
+#        PYTHON BACKEND
+# =============================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pickle / Model Artifacts
+*.pkl
+*.h5
+
+# Databases
+*.db
+*.sqlite3
+
+# Virtual Environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+ml_model/venv/
+ml_model/.venv/
+
+# Environment configuration
+.env
+.env.local
+.env.dev
+.env.prod
+firebase-key.json
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Cache
+.cache/
+*.egg-info/
+.eggs/
+*.cache
+*.tmp
+
+
+# =============================
+#     FRONTEND (React + Vite)
+# =============================
+
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+*.lock
+
+
+# =============================
+#     BLOCKCHAIN (Hardhat)
+# =============================
+
+blockchain/node_modules/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/coverage/
+blockchain/typechain/
+blockchain/chain_data/
+blockchain/build/
+
+
+# =============================
+#        VS CODE SETTINGS
+# =============================
+
+.vscode/
+.history/
+*.code-workspace
+
+
+# =============================
+#        GENERAL
+# =============================
+
+.DS_Store
+Thumbs.db
+*.swp
